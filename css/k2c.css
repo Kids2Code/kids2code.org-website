@@ -1,0 +1,473 @@
+.ScrollSceneIndicators {
+	z-index:1000 !important;
+}
+
+body{
+	font-family: 'Ubuntu Mono', 'monaco', helvetica, arial;
+	
+}
+img {
+	width: auto;
+	height: auto;
+}
+h1 {
+	font-size: 3.6em;
+	font-weight: normal;
+	margin-top: 0;
+}
+h2 {
+	font-weight: normal;
+	margin-top: 0;
+}
+h3 {
+	font-size: 2em;
+	font-weight: normal;
+	margin-top: 0;
+}
+h4 {
+	font-size: 2.7em;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom:0.50em;
+}
+ul {
+	padding: 0;
+	margin:0;
+	list-style-type: none;
+}
+.size-l {
+	font-size: 17px;
+}
+.size-s {
+	font-size: 12px;
+}
+a, a:hover, a:visited {
+	text-decoration: none;
+	color: #455a64;
+	
+}
+.content-inside{
+	margin-left: -30%;
+	margin-right: 30%;
+
+}
+.content-wrapper {
+	position: relative;
+	width:100%;
+
+}
+.content-text {
+	position: relative;
+	width:40%;
+}
+#header {
+	position: fixed;
+	top:0;
+	width:100%;
+	z-index:1000;
+}
+#logo {
+	width:117px;
+	height:27px;
+	position:absolute;
+	top:25px;
+	right:30px;
+}
+#menu-butt {
+	width:30px;
+	height:25px;
+	position:absolute;
+	top:25px;
+	left:30px;
+}
+
+.font-turk{
+	color: #0097a7;
+}
+.turk {
+	background-color: #0097a7;
+}
+.turk-header #logo{
+	background: url("../img/logo_turk.png") no-repeat;
+}
+.turk-header #menu-butt{
+	background: url("../img/menu_turk.png") no-repeat;
+}
+.turk-header li a{
+	color: #0097a7;
+}
+
+
+.font-white{
+	color: #FFFFFF;
+}
+.white {
+	background-color: #FFFFFF;
+}
+.white-header #logo{
+	background: url("../img/logo_white.png") no-repeat;
+}
+.white-header #menu-butt{
+	background: url("../img/menu_white.png") no-repeat;
+}
+.white-header li a{
+	color: #FFFFFF;
+}
+
+.orange {
+	background-color: #ffc107;
+}
+
+.font-grey{
+	color: #455a64;
+}
+.grey-header #logo{
+	background: url("../img/logo_grey.png") no-repeat;
+}
+.grey-header #menu-butt{
+	background: url("../img/menu_grey.png") no-repeat;
+}
+.grey-header li a{
+	color: #455a64;
+}
+.green {
+	background-color: #00796b;
+}
+.blue {
+	background-color: #b3e5fc;
+}
+.light-green {
+	background-color: #689f38;
+}
+
+
+#scroll-down {
+	width:6.125em;
+	height:6.125em;
+	letter-spacing: 2px;
+	background: url("../img/scroll_bg_turk.png") no-repeat;
+	background-size: cover;
+	color:#FFFFFF;
+	text-align: center;
+	font-size: 2em;
+	margin-left: 1em;
+}
+#scroll-down div{
+	padding-top: 1.3em;
+}
+.centered {
+
+}
+.bottom {
+	
+}
+.right {
+	
+}
+
+#roberto img{
+	margin-left:-100px;
+	margin-top:-100px;
+}
+.anim-wrapper {
+	position: absolute;
+
+	top:30px;
+	left:46%;
+}
+.images {
+	position:absolute;
+	top:0px;
+}
+#img-lego{
+	position:absolute;
+	top: -170px;
+}
+#img-raspberry{
+	position:absolute;
+	left:900px;
+	top:200px;
+}
+#img-scratch{
+	position:absolute;
+	left:10px;
+	top:700px;
+}
+
+.floater {
+	width:200%;
+}
+.col {
+	float: left;
+	width:23%;
+	padding-right:4%;
+	padding-bottom:30%;
+}
+.center {
+	position:absolute;
+	height:50%;
+	width:100%;
+	margin-top:15%;
+	font-size: 4em;
+}
+#scene5 a {
+	text-decoration: underline;
+}
+#scene6 a {
+	text-decoration: underline;
+}
+#links {
+	position:relative;
+	z-index:1000;
+}
+#links-absolute {
+	position:absolute;
+	z-index:1000;
+}
+
+#globe {
+	position:absolute;
+	top:0;
+	right:0;
+	width:100%;
+	z-index:0;
+}
+#globe_spacer {
+	position:relative;
+	margin-top:12%;
+	margin-left:60% !important;
+	width:450px;
+	height:450px;
+}
+#globe1{
+	position:absolute;
+	width:100%;
+	height:100%;
+	bottom:0;
+	right:0;
+	overflow: hidden;
+}
+#globe1 img{
+	position:absolute;
+	bottom:0;
+}
+#globe2{
+	position:absolute;
+	width:100%;
+	height:100%;
+	bottom:0;
+	right:0;
+	overflow: hidden;
+}
+#globe2 img{
+	position:absolute;
+	bottom:0;
+}
+
+.inline-content {
+	float: left;
+}
+.sun-hidden {
+	display:none;
+}
+#sun-container {
+
+}
+#sun {
+	z-index:2;
+	top:-10em;
+	position:absolute;
+	width:40em;
+	height:40em;
+}
+#sun img {
+	width:100%;
+	height:100%;
+}
+#scene5 {
+	z-index:3;
+}
+#scene6{
+	/*z-index:-2;*/
+}
+#scene7 {
+	z-index:10;
+}
+#woods {
+	z-index:0;
+	width:100%;
+	position:absolute;
+	top:0;
+}
+#woods_spacer {
+	position:relative;
+	margin-top:20%;
+}
+#woods img {
+	width:100%;
+	height: auto;
+}
+#cover {
+	width: 100%;
+	height: 500px;
+	margin-top: -10px;
+}
+#van {
+	width:259px;
+	top:0;
+	position:absolute;
+	left:60%;
+	top:7%;
+}
+#fuel {
+	position:absolute;
+	top:-14px;
+	left:236px;
+	width:154px;
+	height:108px;
+}
+
+#fuel_yellow {
+	position:absolute;
+	width:100%;
+	height:100%;
+	bottom:0;
+	right:0;
+	overflow: hidden;
+}
+#fuel_yellow img {
+	bottom:0;
+}
+#fuel img {
+	position:absolute;
+	width:auto;
+	height:auto;
+}
+#van_windows {
+	height:69px;
+}
+#heads{
+	position:absolute;
+	top:69px;
+	left:50px;
+}
+#heads img{
+	float:left;
+	width:auto;
+	height:auto;
+	padding-left: 22px;
+	padding-bottom: 40px;
+}
+
+#van_bottom {
+	position:absolute;
+	top:69px;
+}
+
+#bulb {
+	position:absolute;
+	bottom:0;
+	left:60%;
+	width:300px;
+	height:533px;
+	z-index:5;
+}
+#bulb img{
+	position:absolute;
+	top:0;
+	left:0;
+}
+#footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:224px;
+	background: url("../img/bottom_repeat.png") repeat-x;
+}
+
+.footer-inside{
+	color:#455a64;
+	position:absolute;
+	margin-left:18%;
+	margin-top:80px;
+
+}
+
+#bulb-base{
+	position:absolute;
+	bottom:0;
+	left:60%;
+
+}
+#menu-container {
+	width:80%;
+	height:50px;
+	overflow: hidden;
+	position:absolute;
+	top:25px;
+	left:60px;
+}
+#menu-container ul {
+	width:70%;
+}
+
+#menu-container li {
+	float: left;
+	padding:0;
+	margin:0;
+	padding-left:0.8em;
+	font-size: 1.2em;
+	padding-top:0.05em;
+}	
+.sub-title {
+	overflow:hidden;
+	font-size: 1.8em;
+	padding-bottom: 1em;
+}
+.targ {
+	position:absolute;
+}
+#scene3_targ {
+	top:10%;
+}
+
+#scene4_targ {
+	top:50%;
+}
+#scene5_targ {
+	top:50%;
+}
+#scene6_targ {
+	top:30%;
+}
+#scene7_targ {
+	top:100%;
+}
+#scene7 #end {
+	position:absolute;
+	margin-top: -100px;
+	margin-bottom: .6em;
+}
+#scene7 a {
+	color:white;
+	text-decoration: underline;
+}
+.sharethis {
+	padding-top:1em;
+}
+#yellow-cover {
+	position:absolute;
+	bottom:0;
+	right:0;
+	background-color: #ffc107;
+	width:100%;
+	height:50%;
+	z-index:-1;
+	margin-bottom: -48%;
+}
+#content {
+	position:absolute;
+	left:0;
+	top:0;
+}
+
